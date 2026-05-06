@@ -124,9 +124,10 @@ python app.py
 ```
 
 # Backend runs on:
-```
 http://localhost:8000
+
 5. Start Frontend
+```
 cd frontend
 npm install
 npm run dev
