@@ -123,7 +123,7 @@ venv\Scripts\activate
 python app.py
 ```
 
-# Backend runs on:
+Backend runs on:
 http://localhost:8000
 
 5. Start Frontend
@@ -137,14 +137,14 @@ Frontend runs on:
 http://localhost:5173
 
 
-# **Usage**
+# Usage
 Upload documents
 Ask questions from uploaded files
 Ask general knowledge questions
 Receive intelligent contextual responses
 View cited document sources
 
-# ** Core Highlights**
+# Core Highlights
 Hybrid RAG + General AI architecture
 Semantic retrieval pipeline
 Context-aware answer generation
