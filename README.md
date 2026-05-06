@@ -100,8 +100,9 @@ dualrag/
 ├── README.md
 ├── LICENSE
 └── .gitignore
+```
 
-**Required API Keys**
+3 Required API Keys
 
 Create a .env file inside backend/.
 
