@@ -3,47 +3,47 @@
 Enterprise-grade Hybrid Retrieval-Augmented Generation (RAG) AI assistant that combines document intelligence with general LLM reasoning using Qdrant vector search, NVIDIA semantic reranking, OpenRouter embeddings, and Google Gemini 2.5 Flash.
 
 DualRAG can answer:
-- 📄 Questions from uploaded documents
-- 🌐 General knowledge questions
-- 💬 Conversational follow-up queries
+-  Questions from uploaded documents
+-  General knowledge questions
+-  Conversational follow-up queries
 
 while providing source-backed responses through a modern ChatGPT-style interface.
 
 ---
 
-# 🚀 Features
+#  Features
 
-## 🧠 Hybrid Intelligence
+##  Hybrid Intelligence
 - Retrieval-Augmented Generation (RAG)
 - General AI answering fallback
 - Confidence-based retrieval filtering
 
-## 📄 Document Processing
+##  Document Processing
 - Upload and index documents
 - Semantic chunking
 - Vector embeddings generation
 - Qdrant vector storage
 
-## 🔍 Intelligent Retrieval
+##  Intelligent Retrieval
 - Semantic vector search
 - NVIDIA reranking pipeline
 - Context-aware retrieval
 
-## 💬 Conversational Experience
+##  Conversational Experience
 - ChatGPT-like UI
 - Streaming responses
 - Conversational memory
 - Persistent chat history
 - Markdown rendering
 
-## 📚 Source Attribution
+##  Source Attribution
 - Source citations
 - Retrieved document references
 - Confidence scoring
 
 ---
 
-# 🏗️ Tech Stack
+#  Tech Stack
 
 ## Frontend
 - Vite
@@ -79,7 +79,7 @@ Gemini Response Generation
     ↓
 Final Answer + Sources
 
-**📁 Project Structure**
+** Project Structure**
 dualrag/
 │
 ├── backend/
@@ -112,7 +112,7 @@ OpenRouter API Key
 Google Gemini API Key
 NVIDIA API Key
 
-# 🛠️ Local Setup
+#  Local Setup
 1. Start Qdrant
 docker run -p 6333:6333 qdrant/qdrant
 2. Start Backend
@@ -128,13 +128,16 @@ npm run dev
 
 Frontend runs on:
 http://localhost:5173
-🌟 **Usage**
+
+
+# **Usage**
 Upload documents
 Ask questions from uploaded files
 Ask general knowledge questions
 Receive intelligent contextual responses
 View cited document sources
-🔥** Core Highlights**
+
+# ** Core Highlights**
 Hybrid RAG + General AI architecture
 Semantic retrieval pipeline
 Context-aware answer generation
@@ -144,7 +147,7 @@ Streaming AI responses
 Memory-enabled conversations
 Production-style backend structure
 
-**Future Improvements**
+# **Future Improvements**
 PDF/DOCX advanced parsing
 Multi-user authentication
 Cloud deployment
