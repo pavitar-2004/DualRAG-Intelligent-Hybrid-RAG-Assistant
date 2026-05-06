@@ -62,7 +62,7 @@ while providing source-backed responses through a modern ChatGPT-style interface
 
 ---
 
-# ⚙️ System Architecture
+#  System Architecture
 
 ```text
 User Query
@@ -112,7 +112,7 @@ OpenRouter API Key
 Google Gemini API Key
 NVIDIA API Key
 
-## 📦 Prerequisites
+#  Prerequisites
 
 Make sure the following are installed:
 
