@@ -111,7 +111,7 @@ OpenRouter API Key
 Google Gemini API Key
 NVIDIA API Key
 
-🛠️ Local Setup
+# 🛠️ Local Setup
 1. Start Qdrant
 docker run -p 6333:6333 qdrant/qdrant
 2. Start Backend
