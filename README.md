@@ -112,6 +112,18 @@ OpenRouter API Key
 Google Gemini API Key
 NVIDIA API Key
 
+## 📦 Prerequisites
+
+Make sure the following are installed:
+
+- Python 3.10+
+- Node.js 18+
+- Docker Desktop
+- Git
+
+Download Docker:
+https://www.docker.com/products/docker-desktop/
+
 #  Local Setup
 1. Start Qdrant
 ```docker run -p 6333:6333 qdrant/qdrant```
