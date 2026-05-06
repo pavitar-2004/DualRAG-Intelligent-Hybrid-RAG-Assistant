@@ -114,17 +114,23 @@ NVIDIA API Key
 
 #  Local Setup
 1. Start Qdrant
-docker run -p 6333:6333 qdrant/qdrant
-2. Start Backend
+```docker run -p 6333:6333 qdrant/qdrant```
+
+3. Start Backend
+```
 cd backend
 venv\Scripts\activate
 python app.py
-Backend runs on:
+```
+
+# Backend runs on:
+```
 http://localhost:8000
-3. Start Frontend
+5. Start Frontend
 cd frontend
 npm install
 npm run dev
+```
 
 Frontend runs on:
 http://localhost:5173
