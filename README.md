@@ -131,7 +131,9 @@ https://www.docker.com/products/docker-desktop/
 3. Start Backend
 ```
 cd backend
+python -m venv venv
 venv\Scripts\activate
+pip install -r requirements.txt
 python app.py
 ```
 
